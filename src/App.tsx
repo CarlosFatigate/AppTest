@@ -6,19 +6,13 @@
  * @flow strict-local
  */
 
-import React, { Component } from 'react';
-import Root from "./nav/main";
-import { Provider } from 'unstated-typescript'
+import React, {Component} from 'react';
+import Root from './nav/main';
 
 interface Props {}
 interface State {}
 export default class App extends Component<Props, State> {
   render() {
-    return (
-        <Provider>
-          <Root/>
-        </Provider>
-
-    );
+    return <Root />;
   }
 }
