@@ -6,13 +6,13 @@ Na sua máquina, você precisa ter [nodejs](https://nodejs.org/en/), [yarn](http
 npm install -g react-native-cli
 ```
 
-e doips as dependencias:
+e depois as dependencias:
 
 ```js
 yarn install
 ```
 
-Para comecar a testar, basta conectar um telefone android com a depuração USB ativado ou usar o emulador do android studio executar o comando:
+Para comecar a testar, basta conectar um telefone android com a depuração USB ativado ou usar o emulador do android studio e executar o comando:
 
 ```
 npx react-native run-android
